@@ -18,12 +18,11 @@
 
 | Dashboard | Resume Analyzer |
 |-----------|----------------|
-| ![Dashboard](https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Dashboard) | ![Resume](https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Resume+Analyzer) |
+| ![Dashboard](Screenshot%202026-08-17%20160433.png) | ![Resume](Screenshot%202026-08-17%20160459.png) |
 
 | Internship Recommendations | Skill Gap Analysis |
 |---------------------------|-------------------|
-| ![Internships](https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Internships) | ![Skills](https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Skill+Gap) |
-
+| ![Internships](Screenshot%202026-08-17%20160534.png) | ![Skills](Screenshot%202026-08-17%20160616.png) |
 ---
 
 ## ✨ Features
