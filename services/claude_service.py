@@ -1,10 +1,9 @@
 from groq import Groq
 import os
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
 
 def ask_claude(prompt: str, system: str = "", max_tokens: int = 1500) -> str:
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     messages = []
     if system:
         messages.append({"role": "system", "content": system})

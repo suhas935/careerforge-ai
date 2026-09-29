@@ -114,13 +114,10 @@ LOGOUT_REDIRECT_URL = "/accounts/login/"
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
-# Railway settings
-if os.getenv("RAILWAY_ENVIRONMENT"):
-    ALLOWED_HOSTS += [".railway.app", ".up.railway.app"]
-    CSRF_TRUSTED_ORIGINS = [
-        "https://*.railway.app",
-        "https://*.up.railway.app",
-    ]
+#Render Settings
+if os.getenv('RENDER'):
+    ALLOWED_HOSTS += ['.onrender.com']
+    CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
     DEBUG = False
     SECURE_BROWSER_XSS_FILTER = True
     SECURE_CONTENT_TYPE_NOSNIFF = True

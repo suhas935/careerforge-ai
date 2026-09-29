@@ -1,5 +1,3 @@
-
-
 # Create your views here.
 import PyPDF2
 import io
@@ -8,7 +6,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import Resume
 from services.claude_service import ask_claude
-
 
 def extract_text_from_pdf(file):
     text = ""
