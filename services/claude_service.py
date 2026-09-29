@@ -10,7 +10,7 @@ def ask_claude(prompt: str, system: str = "", max_tokens: int = 1500) -> str:
     messages.append({"role": "user", "content": prompt})
 
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
         messages=messages,
         max_tokens=max_tokens,
     )
